@@ -2,13 +2,18 @@ from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QWidget,
     QPushButton, QListWidget, QLabel, QDialog, QFormLayout, QLineEdit, QMessageBox, QFileDialog
 )
+
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
 from ContactApp.project import Project
 from ContactApp.contact_model import Contact
 from ContactApp.phone_number import PhoneNumber
 import datetime
-import sys
 
 
 class MainWindow(QMainWindow):
