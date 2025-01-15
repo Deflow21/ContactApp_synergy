@@ -9,7 +9,7 @@
 ## Установка
 
 1. **Клонируйте репозиторий**:
-git clone https://github.com/<USERNAME>/ContactApp.git
+git clone https://github.com/Deflow21/ContactApp.git
 cd ContactApp
 
 
