@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.log
+ContactsApp.notes
+dist/
+build/
+*.egg-info/
+build_scripts/build/
+build_scripts/dist/
